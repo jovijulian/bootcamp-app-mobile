@@ -1,0 +1,78 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color: #5549b7"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="title" style="color: #fff6f6; font-style: italic; font-size: 16px">Code Academia</a>
+        </div>
+        <!-- <div class="title">RUKANG</div> -->
+        <div class="right">
+          <a href="/login" class="link back btn" style="padding: 0 15px; font-size: 12px; border: 2px solid #8edf5f; color: #3498db; border-radius: 5px; cursor: pointer">
+            <span style="font-size: 12px; color: #fff6f6; font-style: none">Sign in</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toolbar-->
+    <div class="toolbar tabbar tabbar-icons toolbar-bottom">
+      <div class="toolbar-inner" style="background-color: #5549b7">
+        <a href="/course" class="tab-link">
+          <i class="f7-icons" style="color: #8edf5f"> book</i>
+          <span class="tabbar-label" style="color: #fff6f6">Course</span>
+        </a>
+        <a href="/" class="tab-link tab-link-active">
+          <i class="f7-icons" style="color: #8edf5f">house</i>
+          <span class="tabbar-label" style="color: #fff6f6">Home</span>
+        </a>
+        <a href="/about" class="tab-link">
+          <i class="f7-icons" style="color: #8edf5f">heart</i>
+          <span class="tabbar-label" style="color: #fff6f6">About Us</span>
+        </a>
+      </div>
+    </div>
+    <!-- Toolbar-->
+
+    <!-- Scrollable page content-->
+    <div class="page-content" style="background-color: #fff6f6">
+      <div class="block">
+        <div class="login-screen-title" style="text-align: left; color: #201d30; font-weight: bold">Code Academia</div>
+        <br />
+        <span style="color: #201d30; text-align: justify; text-justify: inter-word; word-wrap: break-word"
+          >Visi Code Academia adalah menjadi platform edukasi teknologi terdepan yang mendorong akses literasi digital yang lebih luas untuk semua. Code Academia memiliki misi untuk mengakselerasi transisi Indonesia menuju dunia digital
+          melalui pendidikan teknologi yang mentransformasi kehidupan. Kini semua bangsa bergerak menuju dunia digital yang bertumpu pada inovasi teknologi di semua sendi kehidupan. Kami yakin pendidikan teknologi adalah fondasi bagi setiap
+          bangsa agar menjadi yang terdepan dalam menghadapi dunia digital. Code Academia hadir sebagai platform pendidikan teknologi yang membantu menghasilkan talenta digital berstandar global. Semua demi mengakselerasi Indonesia agar
+          menjadi yang terdepan.</span
+        >
+
+        <br />
+        <br />
+        <br />
+        <span style="color: #201d30; text-align: justify; text-justify: inter-word; word-wrap: break-word; font-weight: bold">Founder</span>
+        <br />
+        <span style="color: #201d30; text-align: justify; text-justify: inter-word; word-wrap: break-word">Jovi Julian Hendri</span>
+        <br />
+        <span style="color: #201d30; text-align: justify; text-justify: inter-word; word-wrap: break-word">4IF / 220434009</span>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <span style="color: #201d30; text-align: justify; text-justify: inter-word; word-wrap: break-word; font-weight: bold">Temukan Kami</span>
+        <br />
+        <span style="color: #201d30; text-align: justify; text-justify: inter-word; word-wrap: break-word">Jl. Soekarno Hatta No.456, Batununggal, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40266</span>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

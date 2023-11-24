@@ -1,0 +1,104 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color: #5549b7"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="title" style="color: #fff6f6; font-style: italic; font-size: 16px">Code Academia</a>
+        </div>
+        <!-- <div class="title">RUKANG</div> -->
+        <div class="right">
+          <a href="/login" class="link back btn" style="padding: 0 15px; font-size: 12px; border: 2px solid #8edf5f; color: #3498db; border-radius: 5px; cursor: pointer">
+            <span style="font-size: 12px; color: #fff6f6; font-style: none">Sign in</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toolbar-->
+    <div class="toolbar tabbar tabbar-icons toolbar-bottom">
+      <div class="toolbar-inner" style="background-color: #5549b7">
+        <a href="/course" class="tab-link">
+          <i class="f7-icons" style="color: #8edf5f"> book</i>
+          <span class="tabbar-label" style="color: #fff6f6">Course</span>
+        </a>
+        <a href="/" class="tab-link tab-link-active">
+          <i class="f7-icons" style="color: #8edf5f">house</i>
+          <span class="tabbar-label" style="color: #fff6f6">Home</span>
+        </a>
+        <a href="/about" class="tab-link">
+          <i class="f7-icons" style="color: #8edf5f">heart</i>
+          <span class="tabbar-label" style="color: #fff6f6">About Us</span>
+        </a>
+      </div>
+    </div>
+    <!-- Toolbar-->
+
+    <!-- Scrollable page content-->
+    <div class="page-content" style="background-color: #fff6f6">
+      <div class="block">
+        <div class="login-screen-title" style="text-align: left; color: #201d30">Bangun Karirmu Sebagai Developer Profesional!</div>
+        <span style="font-style: italic; color: #201d30">Mulai belajar terarah dengan learning path kami</span>
+        <br />
+        <br />
+        <a class="button" style="text-align: left; background-color: #8edf5f; color: #201d30" href="/course">Lihat Learning Path</a>
+      </div>
+
+      <div class="list" style="padding: 5px">
+        <div class="list-group">
+          <ul>
+            <li class="list-group-title" style="background-color: #f1eaff; color: #201d30">Mobile Development</li>
+            <li class="item-content" style="padding: 0 10px">
+              <p style="text-align: justify; text-justify: inter-word; word-wrap: break-word">
+                <img src="../assets/img/mobile.jpg" alt="Mobile Developer Image" width="100%" />
+                Jelajahi dunia inovasi mobile dengan menjadi Mobile Developer. Ciptakan aplikasi yang dinamis dan responsif untuk iOS dan Android. Ketahui seluk-beluk pengembangan perangkat lunak untuk perangkat seluler, optimalkan
+                pengalaman pengguna, dan ikuti perkembangan teknologi mobile terkini.
+                <br />
+                <br />
+                <a class="button" style="text-align: left; background-color: #8edf5f; color: #201d30" href="/login">Belajar mobile development sekarang</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list-group">
+          <ul>
+            <li class="list-group-title" style="background-color: #f1eaff; color: #201d30">Web Development</li>
+            <li class="item-content" style="padding: 0 10px">
+              <p style="text-align: justify; text-justify: inter-word; word-wrap: break-word">
+                <img src="../assets/img/web.jpg" alt="Web Developer Image" width="100%" />
+                Jadilah arsitek web yang kreatif dan ciptakan keajaiban digital sebagai Web Developer. Rancang dan implementasikan situs web yang menarik, fungsional dan responsif. Kuasai bahasa pemrograman seperti HTML, CSS, dan JavaScript
+                untuk membawa ide-ide kreatif Anda menjadi kenyataan. Sertai komunitas pengembang web dan eksplorasi terus menerus dalam dunia development.
+                <br />
+                <br />
+                <a class="button" style="text-align: left; background-color: #8edf5f; color: #201d30" href="/login">Belajar web development sekarang</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="list-group">
+          <ul>
+            <li class="list-group-title" style="background-color: #f1eaff; color: #201d30">Desktop Developer</li>
+            <li class="item-content" style="padding: 0 10px">
+              <p style="text-align: justify; text-justify: inter-word; word-wrap: break-word">
+                <img src="../assets/img/desktop.jpg" alt="Desktop Developer Image" width="100%" />
+                Menyelami ke dalam dunia Desktop Development dan raih kesempatan untuk menciptakan aplikasi desktop yang kuat. Jelajahi pengembangan perangkat lunak untuk sistem operasi seperti Windows, MacOS atau Linux. Dengan keahlian
+                dalam bahasa pemrograman desktop seperti Java, C++ atau Python, Anda dapat membawa ide-ide inovatif Anda ke layar desktop pengguna.
+                <br />
+                <br />
+                <a class="button" style="text-align: left; background-color: #8edf5f; color: #201d30" href="/login/">Belajar desktop development sekarang</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

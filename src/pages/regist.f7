@@ -1,0 +1,93 @@
+<style>
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+</style>
+<template>
+  <div class="page" data-name="home">
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color: #5549b7"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link back btn">
+            <a href="/" class="title" style="color: #fff6f6; font-style: italic; font-size: 16px">Code Academia</a>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="block">
+        <div class="login-screen-title">Buat akun Code Academia Sekarang</div>
+      </div>
+      <div class="list">
+        <ul>
+          <li class="item-content item-input item-input-outline">
+            <div class="item-inner">
+              <div class="item-title item-label">Fullname</div>
+              <div class="item-input-wrap">
+                <input type="text" name="fullname" placeholder="Masukan nama anda" />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input item-input-outline">
+            <div class="item-inner">
+              <div class="item-title item-label">Email</div>
+              <div class="item-input-wrap">
+                <input type="text" name="email" placeholder="Masukan email anda" />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input item-input-outline">
+            <div class="item-inner">
+              <div class="item-title item-label">No. Handphone</div>
+              <div class="item-input-wrap">
+                <input type="number" name="nohp" placeholder="Masukan no. hp anda" />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input item-input-outline">
+            <div class="item-inner">
+              <div class="item-title item-label">Password</div>
+              <div class="item-input-wrap">
+                <input type="password" name="password" placeholder="Masukan password anda" />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <div class="list">
+          <ul>
+            <li>
+              <a class="button" style="text-align: left; background-color: #8edf5f; color: #201d30" @click="${openAlert}">Daftar</a>
+            </li>
+            <li>
+              <p style="font-size: 11px">Sudah mempunyai akun? Login <a href="/regist">disini</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default (props, { $f7 }) => {
+    const openAlert = () => {
+      $f7.dialog.alert("Pendaftaran Berhasil!");
+    };
+    return $render;
+  };
+</script>
